@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="webappl" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax:javaee-web-api:7.0" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/WebAppl/META-INF/MANIFEST.MF" />
