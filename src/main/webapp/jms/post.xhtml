@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"       xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <title>JMS Lab: Post</title>
+</h:head>
+<h:body>
+    <h3>Enter some text string to post to JMS</h3>
+    <h:form>
+        <h:panelGrid columns="2">
+            <h:outputLabel for="postString" value="Post String"/>
+            <h:inputText id="postString" value="#{outboundchannel.postString}"/>
+            <h:panelGroup/>
+            <h:commandButton value="Post" action="view"/>
+        </h:panelGrid>
+    </h:form>
+</h:body>
+</html>
+
