@@ -14,7 +14,7 @@
     <facet type="ejb" name="EJB">
       <configuration>
         <ejbRoots>
-          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/src/main/java" />
         </ejbRoots>
       </configuration>
     </facet>
@@ -44,6 +44,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-api:7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.mail:javax.mail:1.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: javax:javaee-web-api:7.0" level="project" />
+    <orderEntry type="library" name="Maven: javax:javaee-api:7.0" level="project" />
     <orderEntry type="library" name="Maven: javax:javaee-web-api:7.0" level="project" />
   </component>
 </module>
