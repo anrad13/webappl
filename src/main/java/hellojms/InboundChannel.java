@@ -8,13 +8,10 @@ import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
 @MessageDriven(mappedName = "jms/LabQueue")
-
 public class InboundChannel implements MessageListener {
 
     @Inject
     JmsStorage jmsStorage;
-
-
 
     @Override
     public void onMessage(Message message) {
