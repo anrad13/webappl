@@ -1,12 +1,12 @@
 package hellojms;
 
 import javax.annotation.PostConstruct;
-import javax.ejb.Stateless;
+import javax.ejb.Singleton;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Stateless
+@Singleton
 public class JmsStorage {
 
     private List<String> strings = new ArrayList<>();
@@ -24,5 +24,9 @@ public class JmsStorage {
         //return sb.toString();
 
         return s2;
+    }
+
+    public void putString(String string) {
+        strings.add(string);
     }
 }

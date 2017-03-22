@@ -16,7 +16,7 @@ public class ViewJmsStorage  implements Serializable {
     public String getStorage() {
         StringBuffer sb = new StringBuffer("This is jms viewer;\n ")
                 .append(jmsStorage.getString())
-                .append("END\n");
+                .append("; END\n");
 
         return sb.toString();
     }
